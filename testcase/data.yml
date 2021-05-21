@@ -1,0 +1,46 @@
+add:
+  datas:
+    - [0, 1, 1]
+    - [0.2, 0.3, 0.5]
+    - [-3, -4, -7]
+    - [10, 130, 140]
+  ids:
+    - int amount
+    - decimal amount
+    - floor amount
+    - big amount
+sub:
+  datas:
+    - [2, 1, 1]
+    - [0.9, 0.4, 0.5]
+    - [-3, -4, 12]
+    - [100, 40, 60]
+  ids:
+    - int amount
+    - decimal amount
+    - floor amount
+    - big amount
+mul:
+  datas:
+    - [2, 1, 2]
+    - [0.3, 0.4, 0.12]
+    - [-2, -4, 8]
+    - [100, 20, 2000]
+  ids:
+    - int amount
+    - decimal amount
+    - floor amount
+    - big amount
+div:
+  datas:
+    - [0 , 1, 0]
+    - [1, 0 ,'error']
+    - [100, 20, 5]
+    - [0.4, 0.2 ,2]
+    - [-10, -2, 5]
+  ids:
+    - int amount
+    - zero divisor
+    - decimal amount
+    - floor amount
+    - big amount
